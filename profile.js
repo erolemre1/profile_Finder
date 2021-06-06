@@ -6,7 +6,7 @@ class Profile {
 
   async getProfile(username) {
     const profileResponse = await fetch(
-      `APİ_KEY=${username}`
+      `API_KEY=${username}`
     );
 
     const profile = await profileResponse.json();
